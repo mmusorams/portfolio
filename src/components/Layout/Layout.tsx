@@ -23,7 +23,7 @@ function Layout() {
             <nav className="bottom-nav">
 
                 {navigationItems.map((item) => (
-
+                    
                     <LiquidButton
                         key={item.title}
                         active={location.pathname === item.path}
