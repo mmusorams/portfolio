@@ -1,6 +1,8 @@
 function Interests() {
     return (
-        <h1>Interest Me</h1>
+        <h1 className="page-heading">
+            INTERESTS
+        </h1>
     );
 }
 

@@ -1,0 +1,19 @@
+.page-heading{
+
+    font-family:"Manrope", sans-serif;
+
+    font-size:clamp(5rem,11vw,10rem);
+
+    font-weight:800;
+
+    line-height:.9;
+
+    letter-spacing:-0.08em;
+
+    text-transform:uppercase;
+
+    color:#F0660A;
+
+    user-select:none;
+
+}

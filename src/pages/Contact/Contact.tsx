@@ -1,6 +1,8 @@
 function Contact() {
     return (
-        <h1>Contact Me</h1>
+        <h1 className="page-heading">
+            CONTACT
+        </h1>
     );
 }
 

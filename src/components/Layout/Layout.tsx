@@ -1,9 +1,10 @@
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate, useLocation, } from "react-router-dom";
 import LiquidButton from "../LiquidButton/LiquidButton";
 import "./Layout.css";
 
 function Layout() {
     const navigate = useNavigate();
+    const location = useLocation();
 
     const navigationItems = [
         { title: "Home", path: "/" },
@@ -25,6 +26,7 @@ function Layout() {
 
                     <LiquidButton
                         key={item.title}
+                        active={location.pathname === item.path}
                         onClick={() => navigate(item.path)}
                     >
                         {item.title}

@@ -1,8 +1,14 @@
 function About() {
     return (
-        <section className="about">
-            <h1> About Me </h1>
+
+        <section className="page">
+
+            <h1 className="page-heading">
+                ABOUT
+            </h1>
+
         </section>
+
     );
 }
 

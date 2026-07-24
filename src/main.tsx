@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/global.css";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+import "./styles/Typography.css";
 
 import "./styles/global.css";
 

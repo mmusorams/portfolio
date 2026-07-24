@@ -1,6 +1,8 @@
 function Experience() {
     return (
-        <h1>Experience Me</h1>
+        <h1 className="page-heading">
+            EXPERIENCE
+        </h1>
     );
 }
 
