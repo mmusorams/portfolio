@@ -1,75 +1,157 @@
-# React + TypeScript + Vite
+# ✦ Kgohlello Mmuso Ramafalo — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website designed to showcase my skills, projects, experience, and growth as a Computer Science student and aspiring software developer.
 
-Currently, two official plugins are available:
+Built with React, TypeScript, Vite, and custom CSS, this portfolio focuses on a clean **neo-minimal and luxury editorial design aesthetic**, combining strong typography, structured layouts, and subtle interactions to create a professional user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Portfolio: http://localhost:5173/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# About The Project
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This portfolio was created to serve as a personal digital space where recruiters, developers, and collaborators can learn more about my technical background, view my projects, and connect with me.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The design direction was inspired by modern editorial websites, focusing on:
 
+- Strong visual hierarchy
+- Minimal layouts
+- Elegant typography
+- Clear content organization
+- Smooth user experience
+
+Rather than relying on excessive animations, the goal was to create a professional interface that feels polished, intentional, and easy to navigate.
+
+---
+
+# Features
+
+## Navigation
+- Multi-page navigation using React Router
+- Clean and responsive navigation bar
+- Easy access to portfolio sections
+
+## About Section
+- Personal introduction
+- Academic background
+- Developer journey
+- Professional goals
+
+## Skills Section
+- Technical skills displayed through categorized cards
+- Technologies represented with icons
+- Clean keyboard-inspired layout
+
+## Projects Section
+- Showcases completed software projects
+- Highlights technologies used
+- Demonstrates problem-solving and development experience
+
+## Contact Section
+- Email contact integration
+- Social media links
+- Easy communication access
+
+## Design Features
+- Responsive layout
+- Custom fonts
+- Modern typography
+- Hover effects
+- Smooth transitions
+- Minimal editorial-inspired UI
+
+---
+
+# Technologies Used
+
+## Frontend
+
+| Technology | Purpose |
+|---|---|
+| React | Building reusable UI components |
+| TypeScript | Type safety and maintainability |
+| Vite | Fast development and build tooling |
+| CSS3 | Custom styling and layouts |
+| React Router | Client-side navigation |
+| React Icons | Technology and UI icons |
+
+---
+
+# 📂 Project Structure
+portfolio/
+│
+├── public/
+|   |  images/
+│   ├── icons/
+│   └── fonts/
+|
+├── src/
+│ │
+│ ├── assets/
+│ │ 
+│ │
+│ ├── components/
+│ │ ├── Layout
+│ │ ├── LiquidButton
+│ │
+│ ├── pages/
+│ │ ├── Home.tsx
+│ │ ├── About.tsx
+│ │ ├── Projects.tsx
+│ │ └── Contact.tsx
+│ │
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── index.css
+│
+├── package.json
+├── tsconfig.json
+└── README.md
+
+
+---
+
+# Getting Started
+
+Follow these steps to run the project locally.
+
+## Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+
+Check your versions:
+
+```bash
+node -v
+npm -v
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clone the repository 
+      ```bash
+        git clone https://github.com/your-username/portfolio.git
+        ```
+2. Navigate into project directory 
+      ```bash
+        cd portfolio
+        ```
+3. Install required dependencies
+      ```bash
+        npm install 
+        ```
+4. Start the application
+      ```bash
+        npm run dev
+        ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+## Author
+Kgohlello Mmuso Ramafalo
