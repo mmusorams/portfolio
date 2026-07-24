@@ -10,7 +10,7 @@ function Experience(){
             role:"Junior Developer",
             company:"Cannafrica",
             description:
-            "Contributing to the development of business systems, backend modules, database integration, and feature development.",
+            "Building business systems focused on backend development, database integration, and scalable software solutions.",
             skills:[
                 "Node.js",
                 "PostgreSQL",

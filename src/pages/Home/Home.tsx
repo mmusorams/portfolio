@@ -17,7 +17,9 @@ function Home() {
     return (
         <main className="home">
 
-            <section className="hero">
+           <section className="hero">
+
+            <div className="hero-content">
 
                 <h1 className="hero-name">
                     KGOHLELLO
@@ -39,28 +41,31 @@ function Home() {
                     interest in backend development and reliable software solutions.
                 </p>
 
-
                 <div className="hero-buttons">
 
-                    <a 
+                    <a
                         href="/KgohlelloRamafalo_CV (UPDATED).pdf"
                         className="cv-button"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         View CV
                     </a>
 
-
-                    <a
-                        href="/projects"
-                        className="projects-button"
-                    >
-                        View Projects
-                    </a>
-
                 </div>
 
-            </section>
+            </div>
+
+            <div className="hero-image">
+
+                <img
+                    src="/Image.jpeg"
+                    alt="Kgohlello Ramafalo"
+                />
+
+            </div>
+
+        </section>
 
             <nav className="bottom-nav">
 

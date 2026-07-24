@@ -1,6 +1,27 @@
 import "./About.css";
 
+import {
+    FaReact,
+    FaHtml5,
+    FaCss3Alt,
+    FaJava,
+    FaPython,
+    FaGitAlt,
+    FaGithub,
+    FaFigma
+} from "react-icons/fa";
 
+import {
+    SiTypescript,
+    SiJavascript,
+    SiPostgresql,
+    SiNodedotjs,
+    SiExpress,
+    SiVite,
+    SiAxios
+} from "react-icons/si";
+
+import { VscVscode } from "react-icons/vsc";
 
 function About() {
     return (
@@ -44,51 +65,117 @@ function About() {
 
             <section className="skills-section">
 
-                <div className="skills-grid">
+            <div className="keyboard-layout">
 
-                    <div className="skill-category">
+            <div className="keyboard-row row-1">
 
-                        <h3>Frontend</h3>
-
-                        <div className="skill-tags">
-                            <span>React</span>
-                            <span>TypeScript</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-
-                    </div>
-
-                    <div className="skill-category">
-
-                        <h3>Programming</h3>
-
-                        <div className="skill-tags">
-                            <span>Java</span>
-                            <span>Python</span>
-                            <span>C++</span>
-                            <span>SQL</span>
-                        </div>
-
-                    </div>
-
-                    <div className="skill-category">
-
-                        <h3>Tools</h3>
-
-                        <div className="skill-tags">
-                            <span>Git</span>
-                            <span>GitHub</span>
-                            <span>VS Code</span>
-                            <span>Figma</span>
-                        </div>
-
-                    </div>
-
+                {/* React */}
+                <div className="key">
+                    <FaReact className="react" />
+                    <span>React</span>
                 </div>
 
-            </section>
+                <div className="key">
+                    <SiTypescript className="typescript" />
+                    <span>TypeScript</span>
+                </div>
+
+                <div className="key">
+                    <SiVite className="vite" />
+                    <span>Vite</span>
+                </div>
+
+                <div className="key">
+                    <SiExpress className="express" />
+                    <span>Express.js</span>
+                </div>
+
+
+                <div className="key">
+                    <FaHtml5 className="html" />
+                    <span>HTML</span>
+                </div>
+
+                <div className="key">
+                    <FaCss3Alt className="css" />
+                    <span>CSS</span>
+                </div>
+
+            </div>
+
+            <div className="keyboard-row row-2">
+
+                <div className="key">
+                    <FaJava className="java" />
+                    <span>Java</span>
+                </div>
+
+                <div className="key">
+                    <SiAxios className="axios" />
+                    <span>Axios</span>
+                </div>
+
+                <div className="key">
+                    <FaPython className="python" />
+                    <span>Python</span>
+                </div>
+
+                <div className="key">
+                    <SiNodedotjs className="node" />
+                    <span>Node.js</span>
+                </div>
+
+                <div className="key">
+                    <SiPostgresql className="postgres" />
+                    <span>PostgreSQL</span>
+                </div>
+
+                <div className="key">
+                    <span className="cplusplus">C++</span>
+                </div>
+
+            </div>
+
+            <div className="keyboard-row row-3">
+
+                <div className="key">
+                    <FaGitAlt className="git" />
+                    <span>Git</span>
+                </div>
+
+                <div className="key">
+                    <SiJavascript className="javascript" />
+                    <span>JavaScript</span>
+                </div>
+
+                <div className="key">
+                    <span className="toast-icon">🍞</span>
+                    <span>Hot Toast</span>
+                </div>
+
+                <div className="key">
+                    <FaGithub className="github" />
+                    <span>GitHub</span>
+                </div>
+
+                <div className="key">
+                    <VscVscode className="vscode" />
+                    <span>VS Code</span>
+                </div>
+
+                <div className="key">
+                    <FaFigma className="figma" />
+                    <span>Figma</span>
+                </div>
+
+            </div>
+
+        </div>
+            
+
+                
+
+        </section>
 
         </main>
     );
