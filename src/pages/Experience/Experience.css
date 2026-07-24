@@ -1,0 +1,124 @@
+.experience-page{
+
+    max-width:1200px;
+    margin:auto;
+    padding-top:4rem;
+
+}
+
+
+.experience-container{
+
+    margin-top:4rem;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:2rem;
+
+}
+
+
+
+.experience-card{
+
+    padding:2.5rem;
+
+    border-left:2px solid rgba(240,102,10,.5);
+
+    background:rgba(255,255,255,.03);
+
+    transition:.4s ease;
+
+}
+
+
+
+.experience-card:hover{
+
+    transform:translateX(10px);
+
+    border-left-color:#F0660A;
+
+}
+
+
+
+.experience-date{
+
+    color:#F0660A;
+
+    font-size:.9rem;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+}
+
+
+
+.experience-card h2{
+
+    color:white;
+
+    font-size:2rem;
+
+    margin:1rem 0 .5rem;
+
+}
+
+
+
+.experience-card h3{
+
+    color:rgba(255,255,255,.7);
+
+    font-size:1.1rem;
+
+    margin-bottom:1rem;
+
+}
+
+
+
+.experience-card p{
+
+    color:rgba(255,255,255,.8);
+
+    max-width:800px;
+
+    line-height:1.8;
+
+}
+
+
+
+.experience-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:1rem;
+
+    margin-top:1.5rem;
+
+}
+
+
+
+.experience-tags span{
+
+    padding:.6rem 1rem;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    font-size:.85rem;
+
+}
