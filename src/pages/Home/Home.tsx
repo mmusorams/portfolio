@@ -31,6 +31,35 @@ function Home() {
                     FINAL YEAR BSc IT STUDENT
                 </p>
 
+                <p className="hero-description">
+                    Final-year BSc Information Technology student at North-West University
+                    with practical experience in software development, database design, and
+                    collaborative system building. Currently working as a Junior Developer,
+                    contributing to business systems and data-driven applications with an
+                    interest in backend development and reliable software solutions.
+                </p>
+
+
+                <div className="hero-buttons">
+
+                    <a 
+                        href="/KgohlelloRamafalo_CV (UPDATED).pdf"
+                        className="cv-button"
+                        target="_blank"
+                    >
+                        View CV
+                    </a>
+
+
+                    <a
+                        href="/projects"
+                        className="projects-button"
+                    >
+                        View Projects
+                    </a>
+
+                </div>
+
             </section>
 
             <nav className="bottom-nav">
