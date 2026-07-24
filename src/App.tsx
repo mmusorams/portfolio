@@ -6,7 +6,6 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 import Experience from "./pages/Experience/Experience";
-import Interests from "./pages/Interests/Interests";
 import Contact from "./pages/Contact/Contact";
 
 function App() {
@@ -24,8 +23,6 @@ function App() {
                     <Route path="/projects" element={<Projects />} />
 
                     <Route path="/experience" element={<Experience />} />
-
-                    <Route path="/interests" element={<Interests />} />
 
                     <Route path="/contact" element={<Contact />} />
 

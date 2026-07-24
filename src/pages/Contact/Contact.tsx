@@ -25,7 +25,7 @@ function Contact(){
             title:"Email",
             value:"kgohlello2@gmail.com",
             icon:<FaEnvelope />,
-            link:"kgohlello2@gmail.com",
+            link:"https://mail.google.com/mail/?view=cm&fs=1&to=your-kgohlello2@gmail.com",
             className:"email"
         },
 

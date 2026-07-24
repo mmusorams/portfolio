@@ -37,18 +37,21 @@ function About() {
                 <div className="about-content">
 
                     <p>
-                        Hi, I'm <span>Kgohlello Ramafalo</span>, a final-year
-                        BSc Information Technology student at North-West University.
-                        I enjoy creating modern web applications that combine
-                        clean design with practical functionality.
+                        I enjoy turning ideas into functional, intuitive solutions — whether that means building responsive web applications, 
+                        designing user-friendly interfaces, or solving complex programming challenges. My journey in technology has allowed 
+                        me to explore different areas of software development, from frontend development and databases to application design 
+                        and system analysis.
                     </p>
 
                     <p>
-                        My interests lie in software engineering, frontend
-                        development, UI/UX design, and solving real-world
-                        problems through technology. I enjoy learning new
-                        frameworks, refining my coding skills, and building
-                        projects that challenge me to grow.
+                        I’m a curious and driven developer who values continuous learning, attention to detail, and writing solutions that 
+                        are not only efficient but also enjoyable to use. I’m constantly expanding my skills, experimenting with new 
+                        technologies, and looking for opportunities to grow as a software engineer.
+                    </p>
+
+                    <p>
+                        Outside of coding, I enjoy exploring creative fields such as fashion, digital design, and content creation — 
+                        interests that influence the way I approach technology and problem-solving.
                     </p>
 
                 </div>

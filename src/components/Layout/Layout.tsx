@@ -11,7 +11,6 @@ function Layout() {
         { title: "About", path: "/about" },
         { title: "Projects", path: "/projects" },
         { title: "Experience", path: "/experience" },
-        { title: "Interests", path: "/interests" },
         { title: "Contact", path: "/contact" },
     ];
 
