@@ -1,4 +1,4 @@
-# ✦ Kgohlello Mmuso Ramafalo — Portfolio Website
+# Kgohlello Mmuso Ramafalo — Portfolio Website
 
 A modern personal portfolio website designed to showcase my skills, projects, experience, and growth as a Computer Science student and aspiring software developer.
 
@@ -67,18 +67,14 @@ Rather than relying on excessive animations, the goal was to create a profession
 
 ---
 
-# Technologies Used
+# Tech Stack
 
-## Frontend
-
-| Technology | Purpose |
-|---|---|
-| React | Building reusable UI components |
-| TypeScript | Type safety and maintainability |
-| Vite | Fast development and build tooling |
-| CSS3 | Custom styling and layouts |
-| React Router | Client-side navigation |
-| React Icons | Technology and UI icons |
+- React 
+- TypeScript 
+- Vite 
+- CSS3 
+- React Router 
+- React Icons 
 
 ---
 
@@ -118,6 +114,3 @@ npm -v
       ```bash
         npm run dev
         ```
-
-## Author
-Kgohlello Mmuso Ramafalo
