@@ -82,40 +82,6 @@ Rather than relying on excessive animations, the goal was to create a profession
 
 ---
 
-# 📂 Project Structure
-portfolio/
-│
-├── public/
-|   |  images/
-│   ├── icons/
-│   └── fonts/
-|
-├── src/
-│ │
-│ ├── assets/
-│ │ 
-│ │
-│ ├── components/
-│ │ ├── Layout
-│ │ ├── LiquidButton
-│ │
-│ ├── pages/
-│ │ ├── Home.tsx
-│ │ ├── About.tsx
-│ │ ├── Projects.tsx
-│ │ └── Contact.tsx
-│ │
-│ ├── App.tsx
-│ ├── main.tsx
-│ └── index.css
-│
-├── package.json
-├── tsconfig.json
-└── README.md
-
-
----
-
 # Getting Started
 
 Follow these steps to run the project locally.
