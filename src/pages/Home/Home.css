@@ -1,31 +1,104 @@
-.bottom-nav{
 
-    position:fixed;
-
-    left:50%;
-
-    bottom:35px;
-
-    transform:translateX(-50%);
-
-    display:flex;
-
-    gap:14px;
-
-    padding:14px;
-
-    border-radius:999px;
-
-    background:rgba(255,255,255,.06);
-
-    backdrop-filter:blur(24px);
-    -webkit-backdrop-filter:blur(24px);
-
-    border:1px solid rgba(255,255,255,.10);
-
-    box-shadow:
-        0 20px 50px rgba(0,0,0,.35);
-
-    z-index:1000;
-
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+    gap: 4rem;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 0.8;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: .4s ease;
+    filter: grayscale(100%);
+}
+
+.hero-name {
+    font-family: "Salt", sans-serif;
+    font-size: clamp(5rem, 11vw, 10rem);
+    color: #F0660A;
+    line-height: .9;
+    letter-spacing: -0.06em;
+}
+
+.hero-title {
+    color: white;
+    margin-top: 20px;
+}
+
+.hero-image img:hover {
+    filter: grayscale(0);
+    transform: translateY(-8px);
+}
+
+@font-face {
+    font-family: "Salt";
+    src: url("../../assets/fonts/Salt-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hero-description {
+    max-width: 650px;
+    margin-top: 2rem;
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.cv-button,
+.projects-button {
+    padding: 1rem 2rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.cv-button {
+    background: #F0660A;
+    color: white;
+}
+
+.cv-button:hover {
+    transform: translateY(-3px);
+    opacity: .9;
+}
+
+.projects-button {
+    border: 1px solid rgba(255, 255, 255, .3);
+    color: white;
+}
+
+.projects-button:hover {
+    border-color: #F0660A;
+    color: #F0660A;
+}
+
