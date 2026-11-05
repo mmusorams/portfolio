@@ -32,7 +32,7 @@ function Home() {
                     <div className="hero-buttons">
 
                         <a
-                            href="/KgohlelloRamafalo_CV (UPDATED).pdf"
+                            href={`${import.meta.env.BASE_URL}KgohlelloRamafalo_CV (UPDATED).pdf`}
                             className="cv-button"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -47,7 +47,7 @@ function Home() {
                 <div className="hero-image">
 
                     <img
-                        src="/Image.jpeg"
+                        src={`${import.meta.env.BASE_URL}Image.jpeg`}
                         alt="Kgohlello Ramafalo"
                     />
 
