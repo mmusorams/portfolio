@@ -32,7 +32,7 @@ function Home() {
                     <div className="hero-buttons">
 
                         <a
-                            href={`${import.meta.env.BASE_URL}KgohlelloRamafalo_CV (UPDATED).pdf`}
+                            href={`${import.meta.env.BASE_URL}CV_Portfolio.pdf`}
                             className="cv-button"
                             target="_blank"
                             rel="noopener noreferrer"
