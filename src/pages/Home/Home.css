@@ -102,3 +102,60 @@
     color: #F0660A;
 }
 
+@media (max-width: 768px) {
+
+    .home {
+        padding: 30px 20px 120px;
+    }
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        min-height: auto;
+        gap: 3rem;
+        padding-top: 2rem;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-name {
+        font-size: clamp(4rem, 18vw, 6rem);
+        line-height: .9;
+        word-break: normal;
+    }
+
+    .hero-title {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .hero-description {
+        max-width: 100%;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+
+    .cv-button,
+    .projects-button {
+        padding: .9rem 1.5rem;
+    }
+
+    .hero-image {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
