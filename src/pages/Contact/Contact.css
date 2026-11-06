@@ -129,6 +129,101 @@
 }
 
 
+/* =========================
+   TABLET RESPONSIVENESS
+========================= */
+
+@media (max-width: 1024px) {
+
+    .contact-page {
+        padding: 3rem 1.5rem 2rem;
+    }
+
+    .contact-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+
+}
+
+/* =========================
+   MOBILE RESPONSIVENESS
+========================= */
+
+@media (max-width: 768px) {
+
+    .contact-page {
+        width: 100%;
+        padding: 2rem 1rem 3rem;
+    }
+
+    .contact-intro {
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .contact-grid {
+        margin-top: 2.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .contact-card {
+        width: 100%;
+        min-width: 0;
+        height: 180px;
+        padding: 1rem .5rem;
+        text-align: center;
+    }
+
+    .contact-icon {
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .contact-card h2 {
+        font-size: 1rem;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-card p {
+        font-size: .75rem;
+        overflow-wrap: anywhere;
+    }
+
+}
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 380px) {
+
+    .contact-grid {
+        gap: .7rem;
+    }
+
+    .contact-card {
+        height: 160px;
+        padding: .7rem .3rem;
+    }
+
+    .contact-icon {
+        font-size: 2rem;
+    }
+
+    .contact-card h2 {
+        font-size: .9rem;
+    }
+
+    .contact-card p {
+        font-size: .7rem;
+    }
+
+}
+
+
 .contact-card:hover .contact-icon{
 
     transform:scale(1.15);
