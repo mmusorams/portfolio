@@ -1,147 +1,106 @@
-.about-page{
 
-    max-width:1200px;
-
-    margin:0 auto;
-
-    padding-top:4rem;
-
+.about-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 4rem;
 }
 
-.about-content{
-
-    max-width:750px;
-
-    margin-top:2rem;
-
+.about-content {
+    max-width: 750px;
+    margin-top: 2rem;
 }
 
-.about-content p{
-
-    color:rgba(255,255,255,.82);
-
-    font-size:1.15rem;
-
-    line-height:1.9;
-
-    margin-bottom:1.8rem;
-
+.about-content p {
+    color: rgba(255,255,255,.82);
+    font-size: 1.15rem;
+    line-height: 1.9;
+    margin-bottom: 1.8rem;
 }
 
-.hero-title{
-
-    font-size:2rem;
-
-    font-family:"your-cursive-font";
-
-    font-weight:600;
-
-    line-height:1.3;
-
-    letter-spacing:2px;
-
-    color:white;
-
-    margin-top:1rem;
-
+.hero-title {
+    font-size: 2rem;
+    font-family: "your-cursive-font";
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 1rem;
 }
 
-.about-content span{
-
-    color:#F0660A;
-
-    font-weight:700;
-
+.about-content span {
+    color: #F0660A;
+    font-weight: 700;
 }
 
-.skills-section{
-
-    margin-top:5rem;
-
+.skills-section {
+    margin-top: 2rem;
 }
 
-.skills-section h2{
-
-    color:white;
-
-    font-size:2rem;
-
-    margin-bottom:2rem;
-
+.skills-section h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
-.vite{
-    color:#646CFF;
+.vite {
+    color: #646CFF;
 }
 
-.express{
-    color:#FFFFFF;
+.express {
+    color: #FFFFFF;
 }
 
-.axios{
-    color:#5A29E4;
+.axios {
+    color: #5A29E4;
 }
 
-.toast-icon{
-    font-size:2.5rem;
+.toast-icon {
+    font-size: 2.5rem;
 }
 
-.library-icon{
-    font-size:2rem;
-    font-weight:700;
-    color:#F0660A;
+.library-icon {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F0660A;
 }
 
-.skills-grid{
-
-    display:grid;
-
-    gap:2rem;
-
+.skills-grid {
+    display: grid;
+    gap: 2rem;
 }
 
-.skill-category h3{
-
-    color:#F0660A;
-
-    margin-bottom:1rem;
-
+.skill-category h3 {
+    color: #F0660A;
+    margin-bottom: 1rem;
 }
 
-.keyboard-layout{
+/* =========================
+   KEYBOARD SKILLS LAYOUT
+========================= */
 
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:2rem;
-
-    margin-top:3rem;
-
+.keyboard-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
-.keyboard-row{
-
-    display:flex;
-    gap:1.5rem;
-
+.keyboard-row {
+    display: flex;
+    gap: 1.5rem;
 }
 
-.keyboard-layout .key:nth-child(6){
-
-    margin-left:40px;
-
+.keyboard-layout .key:nth-child(6) {
+    margin-left: 40px;
 }
 
-.keyboard-layout .key:nth-child(10){
-
-    margin-left:40px;
-
+.keyboard-layout .key:nth-child(10) {
+    margin-left: 40px;
 }
 
-.keyboard-layout .key:nth-child(11){
-
-    margin-left:80px;
-
+.keyboard-layout .key:nth-child(11) {
+    margin-left: 80px;
 }
 
 .key {
@@ -160,22 +119,16 @@
     transition: .3s;
 }
 
-.row-1{
-
-    margin-left:0;
-
+.row-1 {
+    margin-left: 0;
 }
 
-.row-2{
-
-    margin-left:80px;
-
+.row-2 {
+    margin-left: 80px;
 }
 
-.row-3{
-
-    margin-left:160px;
-
+.row-3 {
+    margin-left: 160px;
 }
 
 .key:hover {
@@ -192,149 +145,103 @@
     font-weight: 600;
 }
 
-.react{
+/* =========================
+   TECHNOLOGY ICON COLOURS
+========================= */
 
-    color:#61DAFB;
-
+.react {
+    color: #61DAFB;
 }
 
-.typescript{
-
-    color:#3178C6;
-
+.typescript {
+    color: #3178C6;
 }
 
-.html{
-
-    color:#E34F26;
-
+.html {
+    color: #E34F26;
 }
 
-.css{
-
-    color:#1572B6;
-
+.css {
+    color: #1572B6;
 }
 
-.javascript{
-
-    color:#F7DF1E;
-
+.javascript {
+    color: #F7DF1E;
 }
 
-.java{
-
-    color:#F89820;
-
+.java {
+    color: #F89820;
 }
 
-.python{
-
-    color:#3776AB;
-
+.python {
+    color: #3776AB;
 }
 
-.git{
-
-    color:#F05032;
-
+.git {
+    color: #F05032;
 }
 
-.github{
-
-    color:white;
-
+.github {
+    color: white;
 }
 
-.figma{
-
-    color:#F24E1E;
-
+.figma {
+    color: #F24E1E;
 }
 
-.mysql{
-
-    color:#00758F;
-
+.mysql {
+    color: #00758F;
 }
 
-.node{
-
-    color:#5FA04E;
-
+.node {
+    color: #5FA04E;
 }
 
-.postgres{
-
-    color:#336791;
-
+.postgres {
+    color: #336791;
 }
 
-.vscode{
-
-    color:#007ACC;
-
-}
-
-.skill-category:nth-child(2){
-
-    margin-left:3rem;
-
-}
-
-.skill-category:nth-child(3){
-
-    margin-left:6rem;
-
-}
-
-.skill-tags span:hover{
-
-    background:#F0660A;
-
-    transform:translateY(-2px);
-
-}
-
-/* Transition between About and Skills */
-
-.transition-word{
-
-    margin-top:6rem;
-
-    margin-bottom:2rem;
-
-    display:flex;
-
-    justify-content:flex-end;
-
-}
-
-
-/* Skills heading alignment */
-
-.skills-heading{
-
-    text-align:right;
-
-    width:100%;
-
-}
-
-
-/* Skills content */
-
-.skills-section{
-
-    margin-top:2rem;
-
+.vscode {
+    color: #007ACC;
 }
 
 /* =========================
-   RESPONSIVE ABOUT PAGE
+   SKILL CATEGORY ALIGNMENT
 ========================= */
 
-/* Tablets */
+.skill-category:nth-child(2) {
+    margin-left: 3rem;
+}
+
+.skill-category:nth-child(3) {
+    margin-left: 6rem;
+}
+
+.skill-tags span:hover {
+    background: #F0660A;
+    transform: translateY(-2px);
+}
+
+/* =========================
+   SECTION TRANSITIONS
+========================= */
+
+.transition-word {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skills-heading {
+    text-align: right;
+    width: 100%;
+}
+
+/* =========================
+   TABLET RESPONSIVENESS
+========================= */
+
 @media (max-width: 1024px) {
 
     .about-page {
@@ -350,10 +257,7 @@
         height: 100px;
     }
 
-    .keyboard-layout .key:nth-child(6) {
-        margin-left: 25px;
-    }
-
+    .keyboard-layout .key:nth-child(6),
     .keyboard-layout .key:nth-child(10) {
         margin-left: 25px;
     }
@@ -362,103 +266,82 @@
         margin-left: 50px;
     }
 
+    .row-2 {
+        margin-left: 50px;
+    }
+
+    .row-3 {
+        margin-left: 100px;
+    }
 }
 
-/* Mobile */
+/* =========================
+   MOBILE RESPONSIVENESS
+========================= */
+
 @media (max-width: 768px) {
 
-    .about-page {
-        width: 100%;
-        padding: 2rem 1rem 3rem;
-    }
+    /* Responsive technology keyboard */
 
-    .about-content {
-        max-width: 100%;
-        margin-top: 1.5rem;
-    }
-
-    .about-content p {
-        font-size: 1rem;
-        line-height: 1.7;
-        margin-bottom: 1.3rem;
-    }
-
-    .hero-title {
-        font-size: clamp(1.3rem, 5vw, 1.8rem);
-        letter-spacing: 1px;
-    }
-
-    .skills-section {
-        margin-top: 3rem;
-    }
-
-    .skills-section h2 {
-        font-size: 1.6rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .skills-grid {
-        gap: 1.5rem;
-    }
-
-    .skill-category:nth-child(2),
-    .skill-category:nth-child(3) {
-        margin-left: 0;
-    }
-
-    .keyboard-layout {
-        width: 100%;
-        gap: 1rem;
-        margin-top: 2rem;
-        overflow-x: auto;
-        align-items: flex-start;
-        padding: 1rem 0;
-    }
-
-    .keyboard-row {
-        gap: .6rem;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .key {
-        width: clamp(55px, 17vw, 85px);
-        height: clamp(65px, 18vw, 85px);
-        border-radius: 12px;
-        flex-shrink: 0;
-    }
-
-    .key svg {
-        font-size: clamp(1.5rem, 6vw, 2.2rem);
-    }
-
-    .key span {
-        font-size: .7rem;
-    }
-
-    .keyboard-layout .key:nth-child(6),
-    .keyboard-layout .key:nth-child(10),
-    .keyboard-layout .key:nth-child(11) {
-        margin-left: 0;
-    }
-
-    .row-2,
-    .row-3 {
-        margin-left: 0;
-    }
-
-    .transition-word {
-        margin-top: 3rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .skills-heading {
-        text-align: left;
-    }
-
+.keyboard-layout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    overflow: visible;
 }
 
-/* Small phones */
+.keyboard-row {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: .5rem;
+    width: 100%;
+}
+
+.key {
+    width: 100%;
+    min-width: 0;
+    height: clamp(65px, 18vw, 85px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    padding: 3px;
+}
+
+.key svg {
+    font-size: clamp(1.2rem, 5vw, 2rem);
+}
+
+.key span {
+    font-size: clamp(.5rem, 2vw, .7rem);
+    text-align: center;
+    white-space: normal;
+}
+
+.keyboard-layout .key:nth-child(6),
+.keyboard-layout .key:nth-child(10),
+.keyboard-layout .key:nth-child(11) {
+    margin-left: 0;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+    margin-left: 0;
+}
+}
+
+/* =========================
+   SMALL PHONE RESPONSIVENESS
+========================= */
+
 @media (max-width: 380px) {
 
     .about-page {
@@ -475,8 +358,30 @@
         height: 60px;
     }
 
+    .key svg {
+        font-size: 1.4rem;
+    }
+
     .key span {
         font-size: .6rem;
     }
+}
 
+@media (max-width: 380px) {
+
+    .keyboard-row {
+        gap: .3rem;
+    }
+
+    .key {
+        height: 60px;
+    }
+
+    .key svg {
+        font-size: 1.2rem;
+    }
+
+    .key span {
+        font-size: .48rem;
+    }
 }
