@@ -1,36 +1,39 @@
-.page-heading{
 
-    font-family:"Manrope", sans-serif;
-
-    font-size:clamp(5rem,11vw,10rem);
-
-    font-weight:800;
-
-    line-height:.9;
-
-    letter-spacing:-0.08em;
-
-    text-transform:uppercase;
-
-    color:#F0660A;
-
-    user-select:none;
-
+.page-heading {
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(2.5rem, 11vw, 10rem);
+    font-weight: 800;
+    line-height: .95;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #F0660A;
+    user-select: none;
+    overflow-wrap: anywhere;
 }
 
-.page-heading{
+/* Tablet */
+@media (max-width: 1024px) {
+    .page-heading {
+        font-size: clamp(3.5rem, 10vw, 7rem);
+    }
+}
 
-    font-family:"Manrope", sans-serif;
+/* Mobile */
+@media (max-width: 768px) {
+    .page-heading {
+        font-size: clamp(2.5rem, 10vw, 4.5rem);
+        letter-spacing: -0.06em;
+        line-height: 1;
+    }
+}
 
-    font-size:clamp(5rem,11vw,10rem);
+/* Small phones */
+@media (max-width: 380px) {
+    .page-heading {
+        font-size: clamp(2.1rem, 9vw, 3rem);
+    }
+}
 
-    font-weight:800;
-
-    line-height:.9;
-
-    letter-spacing:-0.08em;
-
-    text-transform:uppercase;
 
     color:#F0660A;
 
