@@ -36,7 +36,9 @@
 
 .hero-name {
     font-size: clamp(2.8rem, 13vw, 5rem);
+    font-family: "Salt", sans-serif;
     line-height: .95;
+    color: #F0660A;
     letter-spacing: -0.06em;
     overflow-wrap: normal;
 }
