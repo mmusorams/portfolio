@@ -83,3 +83,26 @@
     }
 
 }
+
+@media (max-width: 768px) {
+
+    .layout {
+        padding: 1.5rem 1rem 110px;
+        overflow-x: hidden;
+    }
+
+    .bottom-nav {
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        transform: none;
+
+        width: auto;
+
+        gap: 6px;
+        padding: 8px;
+
+        justify-content: center;
+    }
+
+}
