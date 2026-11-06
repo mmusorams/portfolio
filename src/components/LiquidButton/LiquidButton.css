@@ -40,3 +40,25 @@
         0 0 20px rgba(240,102,10,.45);
 
 }
+
+/* =========================
+   MOBILE RESPONSIVENESS
+========================= */
+
+@media (max-width: 768px) {
+
+    .liquid-button {
+        width: auto;
+        min-width: 0;
+        flex: 1;
+
+        height: 44px;
+
+        padding: 0 5px;
+
+        font-size: clamp(.65rem, 2.5vw, .85rem);
+
+        white-space: nowrap;
+    }
+
+}
