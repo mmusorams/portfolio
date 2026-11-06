@@ -329,3 +329,154 @@
     margin-top:2rem;
 
 }
+
+/* =========================
+   RESPONSIVE ABOUT PAGE
+========================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    .about-page {
+        padding: 3rem 1.5rem 2rem;
+    }
+
+    .keyboard-row {
+        gap: 1rem;
+    }
+
+    .key {
+        width: 100px;
+        height: 100px;
+    }
+
+    .keyboard-layout .key:nth-child(6) {
+        margin-left: 25px;
+    }
+
+    .keyboard-layout .key:nth-child(10) {
+        margin-left: 25px;
+    }
+
+    .keyboard-layout .key:nth-child(11) {
+        margin-left: 50px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .about-page {
+        width: 100%;
+        padding: 2rem 1rem 3rem;
+    }
+
+    .about-content {
+        max-width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+        line-height: 1.7;
+        margin-bottom: 1.3rem;
+    }
+
+    .hero-title {
+        font-size: clamp(1.3rem, 5vw, 1.8rem);
+        letter-spacing: 1px;
+    }
+
+    .skills-section {
+        margin-top: 3rem;
+    }
+
+    .skills-section h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .skills-grid {
+        gap: 1.5rem;
+    }
+
+    .skill-category:nth-child(2),
+    .skill-category:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .keyboard-layout {
+        width: 100%;
+        gap: 1rem;
+        margin-top: 2rem;
+        overflow-x: auto;
+        align-items: flex-start;
+        padding: 1rem 0;
+    }
+
+    .keyboard-row {
+        gap: .6rem;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .key {
+        width: clamp(55px, 17vw, 85px);
+        height: clamp(65px, 18vw, 85px);
+        border-radius: 12px;
+        flex-shrink: 0;
+    }
+
+    .key svg {
+        font-size: clamp(1.5rem, 6vw, 2.2rem);
+    }
+
+    .key span {
+        font-size: .7rem;
+    }
+
+    .keyboard-layout .key:nth-child(6),
+    .keyboard-layout .key:nth-child(10),
+    .keyboard-layout .key:nth-child(11) {
+        margin-left: 0;
+    }
+
+    .row-2,
+    .row-3 {
+        margin-left: 0;
+    }
+
+    .transition-word {
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .skills-heading {
+        text-align: left;
+    }
+
+}
+
+/* Small phones */
+@media (max-width: 380px) {
+
+    .about-page {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+
+    .keyboard-row {
+        gap: .35rem;
+    }
+
+    .key {
+        width: 52px;
+        height: 60px;
+    }
+
+    .key span {
+        font-size: .6rem;
+    }
+
+}
